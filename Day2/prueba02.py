@@ -23,14 +23,14 @@ def getRepetitions(input):
 def remove_letters(string, i):
     return string[:i] + string[i+1:]
 
-def generate_sublists(l, i):
+def generate_sublists(i, l):
     return list(map(lambda str: remove_letters(str, i), l))
 
 
 boxes = [s[:-1] for s in open('input.txt').readlines()]
 
 for i in range(len(boxes[0])):
-    sublist_inport = generate_sublists(boxes, i)
+    sublist_inport = generate_sublists(i, boxes)
     if len(set(sublist_inport)) == len(sublist_inport):
         continue
     for k, v in group_letters(sublist_inport).items():

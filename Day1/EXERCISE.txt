@@ -1,0 +1,26 @@
+"Hemos detectado algunas anomalías temporales", le dice uno de los Elfos de Santa Claus en la Estación de Instrumentos de Detección e Investigación de Anomalías Temporales. Sonaba bastante preocupada cuando te llamó aquí abajo. "¡A intervalos de 500 años en el pasado, alguien ha estado cambiando la historia de Santa!"
+
+"La buena noticia es que los cambios no se propagarán a nuestro flujo de tiempo por otros 25 días, y tenemos un dispositivo", ella se conecta algo a la muñeca, "que le permitirá corregir los cambios sin tal retraso de propagación. Es configurado para enviarle 500 años más al pasado cada pocos días; fue lo mejor que pudimos hacer en tan poco tiempo ".
+
+"La mala noticia es que estamos detectando aproximadamente cincuenta anomalías a lo largo del tiempo; el dispositivo indicará anomalías fijas con estrellas. La otra mala noticia es que solo tenemos un dispositivo y usted es la mejor persona para el trabajo. Buena lu-- "Ella toca un botón en el dispositivo y de repente sientes que te estás cayendo. Para salvar la Navidad, debes obtener las cincuenta estrellas antes del 25 de diciembre.
+
+Recoge estrellas resolviendo puzzles. Dos rompecabezas estarán disponibles cada día en el calendario de adviento; el segundo rompecabezas se desbloquea al completar el primero. Cada rompecabezas otorga una estrella. ¡Buena suerte!
+
+Después de sentir que has estado cayendo durante unos minutos, miras la pequeña pantalla del dispositivo. "Error: el dispositivo se debe calibrar antes del primer uso. Se detectó una desviación de frecuencia. No se puede mantener el bloqueo de destino". Debajo del mensaje, el dispositivo muestra una secuencia de cambios en la frecuencia (su entrada de rompecabezas). Un valor como +6 significa que la frecuencia actual aumenta en 6; un valor como -3 significa que la frecuencia actual disminuye en 3.
+
+Por ejemplo, si el dispositivo muestra cambios de frecuencia de +1, -2, +3, +1, y luego a partir de una frecuencia de cero, se producirán los siguientes cambios:
+
+Frecuencia actual 0, cambio de +1; Frecuencia resultante 1.
+Frecuencia actual 1, cambio de -2; frecuencia resultante -1.
+Frecuencia actual -1, cambio de +3; Frecuencia resultante 2.
+Frecuencia actual 2, cambio de +1; Frecuencia resultante 3.
+En este ejemplo, la frecuencia resultante es 3.
+
+Aquí hay otras situaciones de ejemplo:
+
++1, +1, +1 resultados en 3
++1, +1, -2 resultados en 0
+-1, -2, -3 resultados en -6
+Comenzando con una frecuencia de cero, ¿cuál es la frecuencia resultante después de que se hayan aplicado todos los cambios en la frecuencia?
+
+Para empezar, consigue tu entrada de rompecabezas.
